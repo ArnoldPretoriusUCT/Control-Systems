@@ -59,10 +59,6 @@ The Live Scripts are intended to be executed in sections. This can be achieved b
 
 ## Content
 
-The table below indicates all the content made arranged by week, topic, and content type:
-![](Images/content.png)
-
-## LiveScripts
 ### Course Notes
 - Chapter 1 — Introduction
 - Chapter 2 - Signals and systems
@@ -87,29 +83,8 @@ The table below indicates all the content made arranged by week, topic, and cont
 - Virtual Lab 7
 - Virtual Lab 8
 
-A list of all links to all the Live Scripts is given below:
-1. [Week_0_Course_Content_and_Instructions.mlx](./Week%200%20-%20Content%20and%20Instructions/Week_0_Contents_and_instructions.mlx)
-2. [Week_1_Part_1_Fundamentals.mlx](./Week%201%20-%20Fundamentals/Live%20Scripts/Week_1_Part_1_Fundamentals.mlx)
-3. [Week_1_Part_2_Fundamentals.mlx](./Week%201%20-%20Fundamentals/Live%20Scripts/Week_1_Part_2_Fundamentals.mlx)
-4. [Week_1_Part_3_Fundamentals.mlx](./Week%201%20-%20Fundamentals/Live%20Scripts/Week_1_Part_3_Fundamentals.mlx)
-5. [Week_1_Part_4_Fundamentals.mlx](./Week%201%20-%20Fundamentals/Live%20Scripts/Week_1_Part_4_Fundamentals.mlx)
-6. [Week_1_Part_5_Fundamentals.mlx](./Week%201%20-%20Fundamentals/Live%20Scripts/Week_1_Part_5_Fundamentals.mlx)
-7. [Week_1_Part_6_Fundamentals.mlx](./Week%201%20-%20Fundamentals/Live%20Scripts/Week_1_Part_6_Fundamentals.mlx)
-8. [Week_1_Part_7_Fundamentals.mlx](./Week%201%20-%20Fundamentals/Live%20Scripts/Week_1_Part_7_Fundamentals.mlx)
-9. [Week_1_Part_8_Fundamentals.mlx](./Week%201%20-%20Fundamentals/Live%20Scripts/Week_1_Part_8_Fundamentals.mlx)
-10. [Week_2_Part_1_Arrays_and_Matrices.mlx](./Week%202%20-%20Arrays%20and%20Matrices%20-%20Relational%20and%20Logical%20Operators/Live%20Scripts/Week_2_Part_1_Arrays_and_Matrices.mlx)
-11. [Week_2_Part_2_Relational_and_Logical_Operators.mlx](./Week%202%20-%20Arrays%20and%20Matrices%20-%20Relational%20and%20Logical%20Operators/Live%20Scripts/Week_2_Part_2_Relational_and_Logical_Operators.mlx)
-12. [Week_3_Part_1_Control_Flow_Structures.mlx](./Week%203%20-%20Control%20Flow%20Structures/Live%20Scripts/Week_3_Part_1_ControlFlowStructures.mlx)
-13. [Week_3_Part_2_Control_Flow_Structures.mlx](./Week%203%20-%20Control%20Flow%20Structures/Live%20Scripts/Week_3_Part_2_ControlFlowStructures.mlx)
-14. [Week_4_Part_1_Inputs_and_Outputs.mlx](./Week%204%20-%20Inputs%20and%20Outputs/Live%20Scripts/Week_4_Part_1_InputsAndOutputs.mlx)
-15. [Week_4_Part_2_Inputs_and_Outputs.mlx](./Week%204%20-%20Inputs%20and%20Outputs/Live%20Scripts/Week_4_Part_2_InputsAndOutputs.mlx)
-16. [Week_5_Part_1_Functions_and_Graphing.mlx](./Week%205%20-%20Functions%20and%20Graphing/Live%20Scripts/Week_5_Part_1_Functions_and_Graphing.mlx)
-17. [Week_5_Part_2_Functions_and_Graphing.mlx](./Week%205%20-%20Functions%20and%20Graphing/Live%20Scripts/Week_5_Part_2_Functions_and_Graphing.mlx)
-18. [Week_5_Part_3_Functions_and_Graphing.mlx](./Week%205%20-%20Functions%20and%20Graphing/Live%20Scripts/Week_5_Part_3_Functions_and_Graphing.mlx)
-19. [Week_6_Part_1_Bigger_Picture.mlx](./Week%206%20-%20Bigger%20Picture%20-%20Iteroperability%20-%20Beyond%20introduction%20to%20Programming%20Solution/Live%20Scripts/Week_6_Part_1_Bigger_Picture.mlx)
-20. [Week_6_Part_2_Interoperability_Solution.mlx](./Week%206%20-%20Bigger%20Picture%20-%20Iteroperability%20-%20Beyond%20introduction%20to%20Programming%20Solution/Live%20Scripts/Week_6_Part_2_Interoperability.mlx)
-21. [Week_6_Part_3_Beyond_Introduction_to_Programming_Solution.mlx](./Week%206%20-%20Bigger%20Picture%20-%20Iteroperability%20-%20Beyond%20introduction%20to%20Programming%20Solution/Live%20Scripts/Week_6_Part_3_Beyond_Introduction_to_Programming.mlx)
-
+### Project
+- Project
 
 ## Learning goals
 The objective of this course is to provide an introduction to control systems engineering. This comprises: 
