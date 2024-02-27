@@ -63,13 +63,29 @@ The table below indicates all the content made arranged by week, topic, and cont
 ![](Images/content.png)
 
 ## LiveScripts
-### Course notes
+### Course Notes
 - Chapter 1 — Introduction
 - Chapter 2 - Signals and systems
 - Chapter 3 - Block diagrams
 - Chapter 4 - Modelling the Laplace domain
-- Chapter 5 - Prediction of system  
-
+- Chapter 5 - Prediction of system response
+- Chapter 6 - System characterisation
+- Chapter 7 - Frequency response techniques
+- Chapter 8 - Feedback control systems
+- Chapter 9 - Stability of closed-loop systems
+- Chapter 10 - Steady-state error
+- Chapter 11 - Transient design specifications
+- Chapter 12 - Frequency-domain design
+- Chapter 13 - Digital control systems
+### Virtual Labs
+- Virtual Lab 1
+- Virtual Lab 2
+- Virtual Lab 3
+- Virtual Lab 4
+- Virtual Lab 5
+- Virtual Lab 6
+- Virtual Lab 7
+- Virtual Lab 8
 
 A list of all links to all the Live Scripts is given below:
 1. [Week_0_Course_Content_and_Instructions.mlx](./Week%200%20-%20Content%20and%20Instructions/Week_0_Contents_and_instructions.mlx)
