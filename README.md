@@ -63,6 +63,13 @@ The table below indicates all the content made arranged by week, topic, and cont
 ![](Images/content.png)
 
 ## LiveScripts
+### Course notes
+- Chapter 1 — Introduction
+- Chapter 2 - Signals and systems
+- Chapter 3 - Block diagrams
+- Chapter 4 - Modelling the Laplace domain
+- Chapter 5 - Prediction of system  
+
 
 A list of all links to all the Live Scripts is given below:
 1. [Week_0_Course_Content_and_Instructions.mlx](./Week%200%20-%20Content%20and%20Instructions/Week_0_Contents_and_instructions.mlx)
