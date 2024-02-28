@@ -23,7 +23,7 @@ The intention of this package is to introduce students to the fundamentals of Co
 ### Important points to take note
 - The weekly Virtual Labs contain questions that are meant to be answered within a Learning Management System (LMS), which for the University of Cape Town is Amathuba (an LMS based on D2L Brightspace).
   
-- The worked solutions for the Virtual Labs will be provide upon kind request.
+- Worked solutions for the Virtual Labs and Project are available and will be provide upon kind request and verification of station.
 
 - Every week there is an online quiz within the LMS, which is intended to gauge the students familiarity with the content from the previous week. While the quizzes are for marks, the students are allowed to attempt the quizzes any number of times and receive instant feedback about their incorrect answers. These quizzes can be provided upon kind request.
 
