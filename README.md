@@ -33,13 +33,13 @@ The intention of this package is to introduce students to the fundamentals of Co
 
 ## Some Learning Highlights
 
-| <img src="Images/plottingMultipleColumns.png" width="250"><br>Learn to plot multidimensional data | <img src="Images/controlStructures.png" width="200"><br> Understand control flow structures in MATLAB | <img src="Images/bouncingBall.png" width="250"><br> Simulate dynamic models in MATLAB Simulink |
+| <img src="Images/TableOfContents.png" width="250"><br>Table of contents | <img src="Images/StepInputs.png" width="200"><br> Understand control flow structures in MATLAB | <img src="Images/StepResponse.png" width="250"><br> Simulate dynamic models in MATLAB Simulink |
 | ----------- | ----------- | ----------- |
 
-| <img src="Images/multiVariablePlots.png" width="250"><br>Create Multivariable plots | <img src="Images/importingData.png" width="528"><br>Learn multiple methods to import data into MATLAB | 
+| <img src="Images/BlockDiagram.png" width="250"><br>Block diagram | <img src="Images/PIController.png" width="528"><br>Learn multiple methods to import data into MATLAB | 
 | ----------- | ----------- |
 
-| <img src="Images/matrixConcatenation.png" width="250"><br> Gain insight into Matrix Manipulation <br> | <img src="Images/functions.png" width="250"><br> Develop functions and <br> understand how they work | <img src="Images/createPlots.png" width="250"><br> Learn to create plots <br> that help you understand the data better | 
+| <img src="Images/NicholsChart.png" width="250"><br> Design methods via the Nichols chart <br> | <img src="Images/Quadcopter.png" width="250"><br> Simulink quadcopter control project | <img src="Images/createPlots.png" width="250"><br> Learn to create plots <br> that help you understand the data better | 
 | ----------- | ----------- | ----------- |
 
 
