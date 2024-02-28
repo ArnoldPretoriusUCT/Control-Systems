@@ -45,8 +45,7 @@ The intention of this package is to introduce students to the fundamentals of Co
 ## Instructions
 
 The course content can be approached in one of two ways:
-1. Click on [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=ArnoldPretoriusUCT/Control-Systems)
-   This will allow you to access the content online in your web browser through MATLAB Online.
+1. Click on [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=ArnoldPretoriusUCT/Control-Systems). This will allow you to access the content online in your web browser through MATLAB Online.
 3. Download all files and access the MATLAB content from the desktop app.
 
 ### Live Scripts
