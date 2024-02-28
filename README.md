@@ -36,10 +36,10 @@ The intention of this package is to introduce students to the fundamentals of Co
 | <img src="Images/TableOfContents.png" width="250"><br>Table of contents found in each Chapter | <img src="Images/StepInputs.png" width="200"><br> Combination of static images, formatted text, and LaTeX equations | <img src="Images/StepResponse.png" width="250"><br> Information-rich code outputs |
 | ----------- | ----------- | ----------- |
 
-| <img src="Images/NicholsChart.png" width="250"><br> Design methods via the Nichols chart <br> | <img src="Images/PIController.png" width="528"><br>Learn multiple methods to import data into MATLAB | 
+| <img src="Images/NicholsChart.png" width="250"><br> Design methods via the Nichols chart <br> | <img src="Images/PIController.png" width="528"><br> Neatly sectioned and formatted content | 
 | ----------- | ----------- |
 
-| <img src="Images/BlockDiagram2.png" width="250"><br>Block diagram | <img src="Images/Quadcopter.png" width="250"><br> Simulink quadcopter control project | <img src="Images/CodeBlock.png" width="250"><br> Example of an interactive code block | 
+| <img src="Images/BlockDiagram2.png" width="250"><br>Multi-coloured block diagrams | <img src="Images/Quadcopter.png" width="250"><br> Simulink quadcopter control project | <img src="Images/CodeBlock.png" width="250"><br> Interactive code blocks | 
 | ----------- | ----------- | ----------- |
 
 
