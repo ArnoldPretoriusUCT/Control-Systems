@@ -10,10 +10,11 @@ _Created with MATLAB R2023a. Compatible with MATLAB R2023a and later releases._
 
 ## Description of content
 
-This teaching package contains content for the course “Control Systems”, consisting of the following:
-1. A set of Course Notes, based in MATLAB [Live Scripts](https://www.mathworks.com/products/matlab/live-editor.html).
-2. A set of Virtual Labs, also based in MATLAB Live Scripts.
-3. A Project, which is based in MATLAB Live Scripts and Simulink.
+This teaching package contains content for the course “Control Systems”, which is based heavily within based in MATLAB [Live Scripts](https://www.mathworks.com/products/matlab/live-editor.html). The teaching package comprises the following:
+1. A set of interactive Course Notes, based in MATLAB Live Scripts.
+2. A set of static PDF exports of the Course Notes. 
+3. A set of Virtual Labs, based in MATLAB Live Scripts.
+4. A Project, which is based in MATLAB Live Scripts and Simulink.
 
 The content of this package is intended for undergraduate students with little to no experience with MATLAB. MATLAB is a programming and numeric computing platform developed by MathWorks. 
 
