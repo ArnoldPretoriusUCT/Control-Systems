@@ -31,9 +31,9 @@ The intention of this package is to introduce students to the fundamentals of Co
 
 - Students are required to complete the [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) before engaging in the Course Notes and Virtual Labs.
 
-## Some Learning Highlights
+## Snapshots of the teaching package
 
-| <img src="Images/TableOfContents.png" width="250"><br>Table of contents | <img src="Images/StepInputs.png" width="200"><br> Understand control flow structures in MATLAB | <img src="Images/StepResponse.png" width="250"><br> Simulate dynamic models in MATLAB Simulink |
+| <img src="Images/TableOfContents.png" width="250"><br>Table of contents found in each Chapter | <img src="Images/StepInputs.png" width="200"><br> Information-rich code outputs | <img src="Images/StepResponse.png" width="250"><br> Simulate dynamic models in MATLAB Simulink |
 | ----------- | ----------- | ----------- |
 
 | <img src="Images/NicholsChart.png" width="250"><br> Design methods via the Nichols chart <br> | <img src="Images/PIController.png" width="528"><br>Learn multiple methods to import data into MATLAB | 
