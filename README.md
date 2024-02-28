@@ -1,7 +1,8 @@
 # Control-Systems
 
 [<img src="Images/matlab_file_exchange.png" width="200">](https://www.mathworks.com/matlabcentral/fileexchange/129309-introduction-to-programming-in-matlab)
-[<img src="Images/open-in-matlab-online.png" width="196">](https://matlab.mathworks.com/open/github/v1?repo=jedekoru/Introduction-to-Programming-in-MATLAB&file=Week%200%20-%20Content%20and%20Instructions/Week_0_Contents_and_instructions.mlx)
+
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=ArnoldPretoriusUCT/Control-Systems)
 
 ## Curriculum Module
 
