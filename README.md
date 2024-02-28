@@ -1,7 +1,5 @@
 # Control-Systems
 
-<- [<img src="Images/matlab_file_exchange.png" width="200">](https://www.mathworks.com/matlabcentral/fileexchange/129309-introduction-to-programming-in-matlab)
-->
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=ArnoldPretoriusUCT/Control-Systems)
 
 ## Curriculum Module
@@ -47,8 +45,9 @@ The intention of this package is to introduce students to the fundamentals of Co
 ## Instructions
 
 The course content can be approached in one of two ways:
-1. Click on the Open in [MATLAB Online button](https://matlab.mathworks.com/open/github/v1?repo=jedekoru/Introduction-to-Programming-in-MATLAB&file=Week%200%20-%20Content%20and%20Instructions/Week_0_Contents_and_instructions.mlx) at the top of this readme file to access the content online in your web browser.
-2. Download all files and access the MATLAB content from the desktop app.
+1. Click on [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=ArnoldPretoriusUCT/Control-Systems)
+   This will allow you to access the content online in your web browser through MATLAB Online.
+3. Download all files and access the MATLAB content from the desktop app.
 
 ### Live Scripts
 
@@ -75,17 +74,17 @@ The Live Scripts are intended to be executed in sections. This can be achieved b
 - Chapter 12 - Frequency-domain design
 - Chapter 13 - Digital control systems
 ### Virtual Labs
-- Virtual Lab 1
-- Virtual Lab 2
-- Virtual Lab 3
-- Virtual Lab 4
-- Virtual Lab 5
-- Virtual Lab 6
-- Virtual Lab 7
-- Virtual Lab 8
+- Virtual Lab 1 - Mass-spring-damper system
+- Virtual Lab 2 - Armature-controlled DC motor
+- Virtual Lab 3 - Torsional mass-spring-damper system
+- Virtual Lab 4 - System characterisation
+- Virtual Lab 5 - Underdamped second-order systems
+- Virtual Lab 6 - Closed-loop stability
+- Virtual Lab 7 - Steady-state error
+- Virtual Lab 8 - Design specifications
 
 ### Project
-- Project
+- Project - Attitude control of a quadcopter
 
 ## Learning goals
 The objective of this course is to provide an introduction to control systems engineering. This comprises: 
