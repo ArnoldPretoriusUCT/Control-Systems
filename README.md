@@ -39,7 +39,7 @@ The intention of this package is to introduce students to the fundamentals of Co
 | <img src="Images/NicholsChart.png" width="300"><br> Design methods via the Nichols chart <br> | <img src="Images/PIController.png" width="528"><br> Neatly sectioned and formatted content | 
 | ----------- | ----------- |
 
-| <img src="Images/BlockDiagram2.png" width="250"><br>Multi-coloured block diagrams | <img src="Images/Quadcopter.png" width="250"><br> Simulink quadcopter control project | <img src="Images/CodeBlock.png" width="250"><br> Interactive code blocks | 
+| <img src="Images/BlockDiagram2.png" width="300"><br>Multi-coloured block diagrams | <img src="Images/Quadcopter.png" width="300"><br> Simulink quadcopter control project | <img src="Images/CodeBlock.png" width="300"><br> Interactive code blocks | 
 | ----------- | ----------- | ----------- |
 
 
