@@ -1,6 +1,6 @@
 # Control-Systems
 
-[<img src="Images/matlab_file_exchange.png" width="200">](https://www.mathworks.com/matlabcentral/fileexchange/160301-control-systems)
+[<img src="Images/matlab_file_exchange.png" width="150">](https://www.mathworks.com/matlabcentral/fileexchange/160301-control-systems)
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=ArnoldPretoriusUCT/Control-Systems)
 
 ## Curriculum Module
