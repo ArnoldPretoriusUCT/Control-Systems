@@ -1,5 +1,6 @@
 # Control-Systems
 
+[<img src="Images/matlab_file_exchange.png" width="200">](https://www.mathworks.com/matlabcentral/fileexchange/160301-control-systems)
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=ArnoldPretoriusUCT/Control-Systems)
 
 ## Curriculum Module
@@ -123,7 +124,7 @@ We invite educators interested in this course material to go through the resourc
 - [Symbolic Math Toolbox™](https://www.mathworks.com/products/symbolic.html),
 - [Control System Toolbox](https://www.mathworks.com/products/control.html),
 - [Simulink™](https://www.mathworks.com/products/simulink.html),
-- [UAV Toolbox](https://www.mathworks.com/products/uav.html).
+- [UAV Toolbox](https://www.mathworks.com/products/uav.html),
 - [MATLAB Online Trainings](https://matlabacademy.mathworks.com/).
 
 ## License
