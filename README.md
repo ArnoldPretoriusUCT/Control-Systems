@@ -61,7 +61,7 @@ The Live Scripts are intended to be executed in sections. This can be achieved b
 ## Content
 
 ### Course Notes
-- Chapter 1 — Introduction
+- Chapter 1 - Introduction
 - Chapter 2 - Signals and systems
 - Chapter 3 - Block diagrams
 - Chapter 4 - Modelling the Laplace domain
