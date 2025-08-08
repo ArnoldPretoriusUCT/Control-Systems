@@ -132,6 +132,6 @@ We invite educators interested in this course material to go through the resourc
 The license for this module is available in the [LICENSE](LICENSE) file in this repository.
 
 ## Acknowledgments
-
+A huge thank you to Guy Hasewinkel, who was responsible for generating all the detailed figures and tables that are used in these notes.
 This Curriculum Module was developed through the support of [MathWorks](https://www.mathworks.com/). 
 Special thanks to Dr. Marco Rossi from [MathWorks](https://www.mathworks.com/).
