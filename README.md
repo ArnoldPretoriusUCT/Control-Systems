@@ -15,7 +15,7 @@ This teaching package contains content for the course “Control Systems”, whi
 1. A set of interactive Course Notes, based in MATLAB Live Scripts.
 2. A set of static PDF exports of the Course Notes. 
 3. A set of Virtual Labs, based in MATLAB Live Scripts.
-4. A Project, which is based in MATLAB Live Scripts and Simulink.
+4. Multiple Projects, which is based in both MATLAB Live Scripts and Simulink.
 
 The content of this package is intended for undergraduate students with little to no experience with MATLAB. MATLAB is a programming and numeric computing platform developed by MathWorks. 
 
@@ -24,7 +24,7 @@ The intention of this package is to introduce students to the fundamentals of Co
 ### Important points to take note
 - The weekly Virtual Labs contain questions that are meant to be answered within a Learning Management System (LMS), which for the University of Cape Town is Amathuba (an LMS based on D2L Brightspace).
   
-- Worked solutions for the Virtual Labs and Project are available and will be provide upon kind request and verification of station.
+- Worked solutions for the Virtual Labs and Projects are available and will be provide upon kind request and verification of station.
 
 - Every week there is an online quiz within the LMS, which is intended to gauge the students familiarity with the content from the previous week. While the quizzes are for marks, the students are allowed to attempt the quizzes any number of times and receive instant feedback about their incorrect answers. These quizzes can be provided upon kind request.
 
@@ -84,8 +84,9 @@ The Live Scripts are intended to be executed in sections. This can be achieved b
 - Virtual Lab 7 - Steady-state error
 - Virtual Lab 8 - Design specifications
 
-### Project
-- Project - Attitude control of a quadcopter
+### Projects
+- Project 1 - Attitude control of a quadcopter
+- Project 2 - Control design for a FlappyBird game
 
 ## Learning goals
 The objective of this course is to provide an introduction to control systems engineering. This comprises: 
@@ -103,7 +104,7 @@ The objective of this course is to provide an introduction to control systems en
 
 ## Suggested Prerequisites
 
-This course requires a strong basis in vector calculus, linear algebra, and differential equations. 
+This course requires a strong basis in vector calculus and differential equations. 
 
 ## Additional Resources
 
@@ -115,7 +116,7 @@ This course requires a strong basis in vector calculus, linear algebra, and diff
 We invite educators interested in this course material to go through the resources links provided below:
 - [Featured Courseware](https://www.mathworks.com/academia/courseware/course-materials.html)
 - [Teach with MATLAB and Simulink](https://www.mathworks.com/academia/educators.html)
-- Feel free to contact me with your feedback, my email is [arnold.pretorius@uct.ac.za](mailto:arnold.pretorius@uct.ac.za)
+- Feel free to contact me with your feedback; my email address is [arnold.pretorius@uct.ac.za](mailto:arnold.pretorius@uct.ac.za)
 
 
 ## Products
@@ -132,6 +133,7 @@ We invite educators interested in this course material to go through the resourc
 The license for this module is available in the [LICENSE](LICENSE) file in this repository.
 
 ## Acknowledgments
-A huge thank you to Guy Hasewinkel, who was responsible for generating all the detailed figures and tables that are used in these notes.
+A huge thank you to Guy Hasewinkel, who was responsible for generating all the detailed figures and tables that are used in these notes, as well as the setup and testing of Project 2.
+
 This Curriculum Module was developed through the support of [MathWorks](https://www.mathworks.com/). 
 Special thanks to Dr. Marco Rossi from [MathWorks](https://www.mathworks.com/).
