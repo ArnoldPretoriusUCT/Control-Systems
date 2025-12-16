@@ -1,4 +1,4 @@
-name: Auto-export MATLAB Live Scripts (Changed Files Only)
+name: Auto-export MATLAB Live Scripts
 
 on:
   push:
@@ -7,6 +7,7 @@ on:
   pull_request:
     paths:
       - '**/*.mlx'
+  workflow_dispatch:
 
 jobs:
   export-matlab:
@@ -21,15 +22,17 @@ jobs:
       - name: Set up MATLAB
         uses: matlab-actions/setup-matlab@v2
 
-      # Step 3: Determine changed .mlx files
+      # Step 3: Detect changed .mlx files
       - name: Get changed .mlx files
         id: changed-files
+        shell: bash
         run: |
           echo "::group::Changed .mlx files"
-          CHANGED=$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep '.mlx$' || echo "")
+          CHANGED=$(git diff --name-only ${{ github.sha }} ${{ github.sha }}~1 | grep '\.mlx$' || echo "")
           echo "Changed .mlx files:"
           echo "$CHANGED"
           echo "::endgroup::"
+          # Export list of files as workflow output
           echo "files<<EOF" >> $GITHUB_OUTPUT
           echo "$CHANGED" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
@@ -61,4 +64,3 @@ jobs:
           git add docs/*.html
           git diff --quiet && echo "No changes to commit" || git commit -m "Auto-export updated .mlx files to HTML"
           git push
-
