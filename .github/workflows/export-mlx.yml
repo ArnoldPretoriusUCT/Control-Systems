@@ -14,7 +14,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      # 1. Checkout full history (required for safe pushing)
+      # 1. Checkout full history (required for push)
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -30,7 +30,7 @@ jobs:
           ML_USERNAME: ${{ secrets.ML_USERNAME }}
           ML_PASSWORD: ${{ secrets.ML_PASSWORD }}
 
-      # 3. Detect changed .mlx files (Bash, not PowerShell)
+      # 3. Detect changed .mlx files (Bash required)
       - name: Get changed .mlx files
         id: changed-files
         shell: bash
@@ -44,7 +44,7 @@ jobs:
           echo "$CHANGED" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
 
-      # 4. Export only changed .mlx files
+      # 4. Export changed .mlx files to HTML
       - name: Export changed .mlx files to HTML
         if: steps.changed-files.outputs.files != ''
         run: |
@@ -63,8 +63,9 @@ jobs:
         env:
           CHANGED_FILES: ${{ steps.changed-files.outputs.files }}
 
-      # 5. Commit & push results safely
+      # 5. Commit & push HTML (Bash required)
       - name: Commit and push HTML
+        shell: bash
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
