@@ -20,17 +20,15 @@ jobs:
         with:
           fetch-depth: 0
 
-      # 2. Set up MATLAB with online licence
+      # 2. Set up MATLAB using CI token (REQUIRED)
       - name: Set up MATLAB
         uses: matlab-actions/setup-matlab@v2
         with:
           release: R2024a
-          matlabLicense: online
         env:
-          ML_USERNAME: ${{ secrets.ML_USERNAME }}
-          ML_PASSWORD: ${{ secrets.ML_PASSWORD }}
+          ML_TOKEN: ${{ secrets.ML_TOKEN }}
 
-      # 3. Detect changed .mlx files (Bash required)
+      # 3. Detect changed .mlx files (Bash)
       - name: Get changed .mlx files
         id: changed-files
         shell: bash
@@ -63,7 +61,7 @@ jobs:
         env:
           CHANGED_FILES: ${{ steps.changed-files.outputs.files }}
 
-      # 5. Commit & push HTML (Bash required)
+      # 5. Commit & push HTML (Bash)
       - name: Commit and push HTML
         shell: bash
         run: |
