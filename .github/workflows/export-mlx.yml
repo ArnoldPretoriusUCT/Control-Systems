@@ -45,7 +45,7 @@ jobs:
         run: |
           matlab -batch "
           files = strsplit(getenv('CHANGED_FILES'), newline);
-          outDir = 'docs';
+          outDir = fullfile('Notes', 'HTML Exports');
           if ~exist(outDir,'dir'), mkdir(outDir); end
 
           for k = 1:numel(files)
@@ -65,7 +65,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add docs 2>/dev/null || true
+          git add "Notes/HTML Exports" 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "No HTML changes to commit"
