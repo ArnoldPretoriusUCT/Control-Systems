@@ -1,4 +1,4 @@
-name: Auto-export MATLAB Live Scripts
+name: Auto-export MEC3079S Live Scripts
 
 on:
   push:
@@ -31,34 +31,46 @@ jobs:
             disp(version)
             assert(license('test','MATLAB') == 1)
 
-      - name: Export .mlx files to HTML
+      - name: Export MEC3079S .mlx files to HTML and PDF
         uses: matlab-actions/run-command@v2
         with:
           command: |
-            files = dir('**/*.mlx');
+            % Find only MEC3079S*.mlx files recursively
+            files = dir('**/MEC3079S*.mlx');
 
-            outDir = fullfile('Notes','HTML Exports');
-            if ~exist(outDir,'dir')
-                mkdir(outDir);
+            htmlDir = fullfile('Notes','HTML Exports');
+            pdfDir  = fullfile('Notes','PDF Exports');
+
+            if ~exist(htmlDir,'dir')
+                mkdir(htmlDir);
+            end
+
+            if ~exist(pdfDir,'dir')
+                mkdir(pdfDir);
             end
 
             for k = 1:numel(files)
                 f = fullfile(files(k).folder, files(k).name);
                 [~, name] = fileparts(f);
-                export(f, fullfile(outDir, name + ".html"));
+
+                % Export HTML
+                export(f, fullfile(htmlDir, name + ".html"));
+
+                % Export PDF
+                export(f, fullfile(pdfDir, name + ".pdf"));
             end
 
-      - name: Commit and push HTML exports
+      - name: Commit and push HTML and PDF exports
         shell: bash
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add "Notes/HTML Exports" || true
+          git add "Notes/HTML Exports" "Notes/PDF Exports" || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Auto-export MATLAB Live Scripts to HTML"
+            git commit -m "Auto-export MEC3079S Live Scripts to HTML and PDF"
             git push
           fi
