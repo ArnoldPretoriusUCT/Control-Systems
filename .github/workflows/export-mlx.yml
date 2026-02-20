@@ -11,7 +11,7 @@ env:
 
 jobs:
   export-matlab:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Check out repository
@@ -49,6 +49,7 @@ jobs:
             end
 
       - name: Commit and push HTML exports
+        shell: bash
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
