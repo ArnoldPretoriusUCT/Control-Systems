@@ -87,6 +87,7 @@ The Live Scripts are intended to be executed in sections. This can be achieved b
 ### Projects
 - Project 1 - Attitude control of a quadcopter
 - Project 2 - Control design for a FlappyBird game
+- Project 3 — Lateral control of a ball-catching cart
 
 ## Learning goals
 The objective of this course is to provide an introduction to control systems engineering. This comprises: 
