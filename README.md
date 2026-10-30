@@ -16,6 +16,7 @@ This teaching package contains content for the course “Control Systems”, whi
 2. A set of static PDF exports of the Course Notes. 
 3. A set of Virtual Labs, based in MATLAB Live Scripts.
 4. Multiple Projects, which is based in both MATLAB Live Scripts and Simulink.
+5. A set of MATLAB Apps based on the MATLAB Live Script course content, which summarises the key learning elements of each chapter in a highly interactive manner.
 
 The content of this package is intended for undergraduate students with little to no experience with MATLAB. MATLAB is a programming and numeric computing platform developed by MathWorks. 
 
@@ -88,6 +89,21 @@ The Live Scripts are intended to be executed in sections. This can be achieved b
 - Project 1 - Attitude control of a quadcopter
 - Project 2 - Control design for a FlappyBird game
 - Project 3 — Lateral control of a ball-catching cart
+
+### Apps
+- Chapter 1 - Introduction
+- Chapter 2 - Signals and systems
+- Chapter 3 - Block diagrams
+- Chapter 4 - Modelling the Laplace domain
+- Chapter 5 - Prediction of system response
+- Chapter 6 - System characterisation
+- Chapter 7 - Frequency response techniques
+- Chapter 8 - Feedback control systems
+- Chapter 9 - Stability of closed-loop systems
+- Chapter 10 - Steady-state error
+- Chapter 11 - Transient design specifications
+- Chapter 12 - Frequency-domain design
+- Chapter 13 - Digital control systems
 
 ## Learning goals
 The objective of this course is to provide an introduction to control systems engineering. This comprises: 
