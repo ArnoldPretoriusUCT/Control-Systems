@@ -86,7 +86,7 @@ The Live Scripts are intended to be executed in sections. This can be achieved b
 - Virtual Lab 8 - Design specifications
 
 ### Projects
-- Project 1 - Attitude control of a quadcopter
+- Project 1 - Altitude control of a quadcopter
 - Project 2 - Control design for a FlappyBird game
 - Project 3 — Lateral control of a ball-catching cart
 
